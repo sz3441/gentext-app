@@ -1,0 +1,19 @@
+[project]
+name = "gentext-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jessicazhangsj", email = "jessica.zhangsj2017@gmail.com" }
+]
+requires-python = ">=3.11.13"
+dependencies = [
+    "fastapi>=0.141.1",
+]
+
+[project.scripts]
+gentext-app = "gentext_app:main"
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
